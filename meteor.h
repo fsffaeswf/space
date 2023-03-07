@@ -20,6 +20,7 @@ public:
 			sprite.setScale(0.125f, 0.125f);
 		}
 		sprite.setPosition(pos);
+		sprite.setTexture(texture);
 		speed = fspeed;
 	}
 	void update() {
